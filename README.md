@@ -30,6 +30,17 @@ Ao final, a palavra criptografada é exibida na tela e gravada no arquivo `resul
 
 O programa funciona por um menu com as opções: nova criptografia, ver o resultado salvo, ver o log de execução e sair.
 
+## Como compilar e rodar
+
+Precisa de um compilador C (GCC, Clang ou o MinGW no Windows).
+
+```bash
+gcc criptografia.c -o criptografia
+./criptografia          # no Windows: criptografia.exe
+```
+
+Os arquivos `resultado_criptografia.txt` e `log_execucao.txt` são criados na pasta de onde o programa for executado.
+
 ## Sequências implementadas
 
 | Opção | Sequência | Função | Termos |
